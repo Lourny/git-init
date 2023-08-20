@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: darkslateblue;
+}
+body>div.container{
+    width: 250px;
+    height: 140px;
+    background-color: dodgerblue;
+    border-radius: 15px;
+    margin: 100px auto;
+    display: flexbox;
+    flex-direction: column;
+    text-align: center;
+    padding: 8px;
+}
